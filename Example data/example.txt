@@ -1,0 +1,97 @@
+	StudyID	UMRN	GlobalID	Trial	InterventGroup	Site	Age	Age.f	SurgeryDate	YearOfSurgery	WeightKG	HeightCM	BMI	BMI.pct	BMI.zscore	ASA	Sex	Wheeze	Cough	ColdOrFlu	WheezeExercise	CaregiverSmoking	Premature	STBURSnore	STBURLoud	STBURTrblBreath	STBURStopBreath	STBURUnfresh	AnySTBUR	TotalSTBUR	AnyRF	AnyRF.smoking_prem_exclu	Procedure	SurgerySpeciality	Induction	Airway	AirwayRemoval	Maintenance	AnaestheticDuration	PACUDuration	PreMedClonidine	PreMedClonidine_dose	PreMedMidaz	PreMedMidaz_dose	PreMedKetamine	PreMedOther	IntraOpClonidine	IntraOpClonidine_dose	IntraOpOpioid	IntraOpFentanyl	IntraOpFentanyl_dose	IntraOpMorphine	IntraOpMorphine_dose	IntraOpHydromorph	IntraOpHydromorph_dose	IntraOpPethidine	IntraOpPethidine_dose	IntraOpRemifentanil	IntraOpRemifentanil_dose	IntraOpTramadol	IntraOpTramadol_dose	IntraOpOxycodone	IntraOpOxycodone_dose	IntraOpAlfentanil	IntraOpAlfentanil_dose	PostOpClonidine	PostOpClonidine_dose	InductBronchospasm	InductLaryngospasm	InductCoughing	InductDesatsLT95	InductAirObs	InductPulmAsp	MaintBronchospasm	MaintLaryngospasm	MaintCoughing	MaintDesatsLT95	MaintAirObs	MaintPulmAsp	EmergBronchospasm	EmergLaryngospasm	EmergCoughing	EmergDesatsLT95	EmergAirObs	EmergPulmAsp	PacuBronchospasm	PacuLaryngospasm	PacuCoughing	PacuDesatsLT95	PacuAirObs	PacuPulmAsp	PacuStridor	AnyBronchospasm	AnyLaryngospasm	AnyCoughing	AnyDesatsLT95	AnyAirObs	AnyPulmAsp	AnyStridor	AnyInduct	AnyMaint	AnyEmerg	AnyPacu	AnyPRAE	DeliriumTool	Delirium	PONV	AnySeverePRAE	AnyPRAE.N	IntraopOME_perkg	AnyClonidine
+
+8 year old male
+
+Notes:
+1. Emergency Department medical note 1/1/25
+8 year old boy
+NKDA 
+No medications
+Last meal 8:00am
+
+Developed right sided testicular pain 1/7 ago. Did not tell anybody as did not want to worry anyone.
+Ate a sandwich on the way to hospital at 0730.
+USS showing avascular right testes - referred to surgeons at PCH
+
+O/E
+Comfortable
+Not examined further
+
+Plan
+Admit to hospital
+NBM
+Surgeons informed 
+
+2. Surgical note 1/1/25
+Paediatric Surgery Admission
+8M with right testicular torsion on ultrasound
+HPC
+One day history of right sided scrotal pain
+Initially had vomiting but none in past 6h
+No fevers
+No urinary symptoms
+No abdominal pain
+
+B/g
+Nil previous operations
+Well 
+
+O/E
+Obs WNL 
+Comfortable
+Swollen right hemiscrotrum
+
+d/w Dr French
+
+Plan
+NBM
+B&C right scrotal exploration +/- right orchidectomy
+
+3. Consent note 1/1/25 
+Scrotal exploration +/- right testis +/- right orchidectomy
+
+4. Nursing note 1/1/25
+IVC inserted
+Patient comfortable
+No concerns ATOR
+
+5. Operation report
+Operation and principal diagnosis: Right sctrol exploration and orchidectomy
+Indication
+8M with 1 day history of pain
+
+Findings
+Oedema and swelling of right hemiscrotum
+720 degree torsion of testis with non viable ischaemic testis, black epididymis
+Decision made not for orchidopexy given swelling and inflammation
+
+Procedure details
+Team time out
+IV cefazolin
+Betadine prep and drape
+Median raphe incision
+Testis delivered
+Detorted
+Warm pack for 15 minutes, no improvement
+Orchidectomy performed
+Divided with diathermy
+Haemostasis
+Dartos closed with 3-0 vicryl
+Skin closed with 4-0 vicryl rapide
+Steristrips + opsite spray
+
+Postoperative instructions
+Diet as tolerated
+No sport for 2 weeks
+Follow up with Dr French regarding management 
+Home tomorrow if well
+
+Discharge summary 2/1/25
+[...]
+Advice to parents
+We wish you all the best on discharge
+We advise that patient stay off school for 2-3 days to guide return to school based on comfort levels and symptoms
+Patient should not swim for 2 weeks
+We will see you in clinic in 2-3 weeks time.
+
+Clinic letter 21/1/25
