@@ -1,4 +1,5 @@
-#from transformers import pipeline
-import numpy as np
+from transformers import AutoTokenizer
 
-print("This is a numpy Array", np.arange(5))
+model = 'facebook/contriever'
+
+tokenizer = AutoTokenizer.from_pretrained('facebook/contriever')
