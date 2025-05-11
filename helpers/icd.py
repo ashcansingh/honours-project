@@ -84,10 +84,9 @@ def get_top_k_similar(text_embedding, icd_embeddings, k = 5):
 
     sims = cosine_similarity(text_embedding, embeddings).flatten()
 
-    top_k_codes = sims.argsort()[::-1][:k]
+    top_k_codes_index = sims.argsort()[::-1][:k]
 
-    for code in top_k_codes:
-        print(f"{codes[code]}: similarity = {sims[code]:.4f}")
+    top_k_codes = [codes[index] for index in top_k_codes_index]
+    top_k_sims = [sims[index] for index in top_k_codes_index] 
 
-def trial():
-    print("lol")
+    return top_k_codes, top_k_sims
