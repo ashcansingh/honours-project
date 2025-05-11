@@ -17,10 +17,10 @@ def create_icd_csv():
     icd_clean = [[icd.strip() for icd in icd_pair] for icd_pair in icd_split] # Strip trailing spaces in strings
 
     icd_csv = pd.DataFrame(icd_clean, columns = ["Code", "Description"])
-    icd_csv.to_csv('./Saved Data/icd10.csv', index = False)
+    icd_csv.to_csv('./Saved_Data/icd10.csv', index = False)
 
 def read_icd():
-    return pd.read_csv('./Saved Data/icd10.csv')
+    return pd.read_csv('./Saved_Data/icd10.csv')
 
 def mean_pooling(inputs, model):
     with torch.no_grad():
@@ -44,7 +44,7 @@ def create_icd_embeddings(model_name, file_name, model_type):
         model = SentenceTransformer(model_name)
         embeddings = {row.Code: model.encode(row.Description) for row in icd.itertuples()}
     
-        save_icd_embeddings(file_name)
+        save_icd_embeddings(file_name, embeddings)
 
         return
     
@@ -58,7 +58,7 @@ def create_icd_embeddings(model_name, file_name, model_type):
             input = tokenizer(row.Description, padding = True, truncation = True, return_tensors = 'pt')
             embeddings[row.Code] = mean_pooling(input, model)
         
-        save_icd_embeddings(file_name)
+        save_icd_embeddings(file_name, embeddings)
 
         return
 
@@ -68,12 +68,12 @@ def embed_text(model_name, model_type, text):
 
         return model.encode(text)
 
-def save_icd_embeddings(file_name):
-    with open(f"./Saved Data/ICD Pickles/{file_name}.pkl", "wb") as p:
+def save_icd_embeddings(file_name, embeddings):
+    with open(f"./Saved_Data/ICD_Pickles/{file_name}.pkl", "wb") as p:
         pickle.dump(embeddings, p)
 
 def open_icd_embeddings(file_name):
-    with open(f"./Saved Data/ICD Pickles/{file_name}.pkl", "rb") as p:
+    with open(f"./Saved_Data/ICD_Pickles/{file_name}.pkl", "rb") as p:
         return pickle.load(p)
 
 def get_top_k_similar(text_embedding, icd_embeddings, k = 5):
